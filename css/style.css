@@ -1,5 +1,29 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    font-size: 16px;
+}
+
+/*Header Section*/
+
 .header {
     background-color: #1F2937;
+    padding: 0px 180px;
+}
+
+.topHeaderContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+.contentHeaderContainer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 50px;
 }
 
 .logo {
@@ -7,14 +31,147 @@
     color: #F9FAF8;
 }
 
-.headerText {
+ul {
     list-style-type: none;
     font-size: 18px;
-    color: #E5E7EB
+    color: #E5E7EB;
+    display: flex;
+    gap: 16px;
 }
 
+.headerText {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 8px 0px;
+ }
+
 .title {
+    font-weight: 900;
     font-size: 48px;
-    font-weight: extra-bold;
-    color: #F9FAF8
+    color: #F9FAF8;
+    margin: 0px;
+}
+
+button {
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #3882F6;
+    border-color: #3882F6;
+    color: white;
+    padding: 8px 32px;
+    margin-top: 8px;
+    border-radius: 10px;
+    border: 0px;
+}
+
+.imgholder {
+    color: white;
+    background-color: grey;
+    width: 1000px;
+    height: 250px;
+    display: flex;     
+    align-items: center;
+    justify-content: center;
+    flex: 1 0 auot;
+}
+
+/* Info Section */
+
+.infoTitle  {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin: 50px;
+    text-align: center;
+}
+
+.infoContentContainer {
+    padding: 0px 180px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    }
+
+.infoImagenTextContainer {
+    width: 160px;
+    height: auto;
+    margin: 0px 30px;;
+   }
+
+.imagen {
+    width: 160px;
+    height: 160px;
+    border: 4px solid #3882F6;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    }
+.imagenText {
+    text-align: center;
+    color: grey;
+}
+
+/*Quote Section*/
+
+.quoteSection {
+    background-color: #E5E7EB;
+    padding: 100px 300px;
+}
+    
+
+.quote {
+    font-size: 36px;
+    font-weight: 100;
+}
+
+.sign {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: end;
+}
+
+/*SignUp Section*/
+
+.signUpSection {
+    background-color: white;
+    padding: 100px 150px;
+}
+
+.signUpContainer {
+    background-color: #3882F6;
+    border-radius: 10px;
+    border:0;
+    color: white;
+    display: flex;
+    padding: 50px 100px;
+    justify-content: space-between;
+}
+
+.signUpText {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.signUpTitle {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.secondButton {
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 8px 40px;
+}
+
+/*Footer Section*/
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0px;  
 }
